@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { execSync } = require("child_process");
 const mode = process.argv[2];
 const port = process.argv[3];

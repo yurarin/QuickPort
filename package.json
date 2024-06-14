@@ -1,0 +1,22 @@
+{
+  "name": "quickport",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"> <br> <h3>QuickPort</h3> <p>WSLで立ち上げたサーバーをホスト環境にポートフォワーディングさせるツール<p> <a href=\"/guide.md\">使用方法はこちら</a> <br> </div>",
+  "main": "QuickPort.js",
+  "bin": {
+    "quickport": "./quickport.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurarin/QuickPort.git"
+  },
+  "author": "yurarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurarin/QuickPort/issues"
+  },
+  "homepage": "https://github.com/yurarin/QuickPort#readme"
+}

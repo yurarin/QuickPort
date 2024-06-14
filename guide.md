@@ -1,6 +1,21 @@
 # QuickPort
+## インストール方法
 <pre>
-$ node QuickPort.js <コマンド> <引数> ...
+> npm install -g
+</pre>
+## アンインストール方法
+<pre>
+> npm uninstall -g
+</pre>
+## PowerShell の実行ポリシーを変更
+<pre>
+> Set-ExecutionPolicy RemoteSigned
+</pre>
+<hr>
+
+## 型
+<pre>
+> quickport <コマンド> <引数> ...
 </pre>
 
 ## コマンドの種類と引数の渡し方
