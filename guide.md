@@ -1,24 +1,26 @@
 # QuickPort
-## インストール方法
+### インストール方法
 <pre>
 > npm install -g
 </pre>
-## アンインストール方法
+### アンインストール方法
 <pre>
 > npm uninstall -g
 </pre>
-## PowerShell の実行ポリシーを変更
+### PowerShell の実行ポリシーを変更
 <pre>
 > Set-ExecutionPolicy RemoteSigned
 </pre>
+<br>
 <hr>
+<br>
 
-## 型
+### 型
 <pre>
 > quickport <コマンド> <引数> ...
 </pre>
 
-## コマンドの種類と引数の渡し方
+### コマンドの種類と引数の渡し方
 コマンドは3つ用意されています。
 - add
     - ポート設定を追加します。
